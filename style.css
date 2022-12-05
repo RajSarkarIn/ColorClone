@@ -1,0 +1,80 @@
+body{
+    background-color:black;
+  }
+  nav{
+    display:flex;
+    justify-content:space-between;
+      align-item:center;
+    flex-wrap:wrap;
+    background-image:linear-gradient(to right, black,#1c1c1b);
+    position:fixed;
+    width:100%;
+    top:0;
+  }
+  .signup{
+  background-image:linear-gradient(to right,orange, red, purple);
+    padding:0.3cm;
+    border-radius:10px;
+    
+  }
+  nav a{
+    color:white;
+    text-decoration:none;
+    font-size:large;
+    font-weight:bold;
+  }
+  nav a:hover{
+    color:purple;
+  }
+  nav a:active{
+    text-decoration:underline;
+    
+  }
+  .logo{
+    color:red;
+  }
+  
+  nav ul{
+    display:flex;
+    align-item:center;
+  }
+  nav ul li{
+    list-style-type:none;
+    margin-left:1cm;
+    margin-right:0.5cm;
+    
+  }
+  .cyc{
+    padding-top:2cm;
+    text-align:center;
+  }
+  #p1{
+    color:white;
+    font-size:80px;
+  }
+  #gp1{
+    background-image:linear-gradient(to right, orange, purple);
+  -webkit-background-clip:text;
+  color:transparent;
+  }
+  #gp2{
+    background-image:linear-gradient(to left,violet, purple);
+    font-size:50px;
+    -webkit-background-clip:text;
+    color:transparent;
+  }
+  #mb{
+      background-image:linear-gradient(to right,orange,red, purple);
+    font-size:40px;
+    border-radius:10px;
+    color:white;
+    text-decoration:none;
+    padding:0.3cm 1cm 0.3cm 1cm;
+    animation-name:cb;
+    animation-duration:4s;
+    }
+  @keyframe cb{
+    from { background-image:linear-gradient(to right,orange,red, purple);}
+    to {background-color:red;}
+  }
+  
