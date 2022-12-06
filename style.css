@@ -70,12 +70,6 @@ body{
     color:white;
     text-decoration:none;
     padding:0.3cm 1cm 0.3cm 1cm;
-    animation-name:cb;
-    animation-duration:4s;
-    }
-  @keyframe cb{
-    from { background-image:linear-gradient(to right,orange,red, purple);}
-    to {background-color:red;}
   }
   
 .whatwe{
@@ -121,4 +115,93 @@ color:#e3107d;
     color:white;
     font-size:20px;
     font-weight:bold;
+}
+#midd2{
+  margin-top:5cm;
+  background-image:linear-gradient(to right,#f02416,#e64237);
+  -webkit-background-clip:text;
+  color:transparent;
+  font-size:20px;
+  text-align: center;
+  height:3cm;
+}
+.fmcont{
+  display:flex;
+  justify-content:space-around;
+}
+#q{
+  background-image:linear-gradient(to right, #1ac4c4,#eb34d5);
+  max-height:8cm;
+  width:8.2cm;
+  text-align:center;
+  color:white;
+ padding-top:3cm;
+ padding-bottom:4cm;
+ border-radius:4px;
+
+}
+#q a{
+  background-color:black;
+  text-decoration:none;
+  padding:0.3cm 0.5cm 0.3cm 0.5cm;
+  color:white;
+  font-size:18px;
+  border-radius:4px;
+}
+#w{
+  background-image:linear-gradient(to right, #5aeded,#1ac4c4);
+  max-height:8cm;
+  width:8.2cm;
+  text-align:center;
+  color:white;
+ padding-top:3cm;
+ padding-bottom:4cm;
+ border-radius:4px;
+
+}
+#w a{
+  background-color:black;
+  text-decoration:none;
+  padding:0.3cm 0.5cm 0.3cm 0.5cm;
+  color:white;
+  font-size:18px;
+  border-radius:4px;
+}
+#e{
+  background-image:linear-gradient(to right, purple,#d60d67);
+  max-height:8cm;
+  width:8.2cm;
+  text-align:center;
+  color:white;
+ padding-top:3cm;
+ padding-bottom:4cm;
+ border-radius:4px;
+
+}
+#e a{
+  background-color:black;
+  text-decoration:none;
+  padding:0.3cm 0.5cm 0.3cm 0.5cm;
+  color:white;
+  font-size:18px;
+  border-radius:4px;
+}
+#r{
+  background-image:linear-gradient(#18c5db,purple);
+  max-height:8cm;
+  width:8.2cm;
+  text-align:center;
+  color:white;
+ padding-top:3cm;
+ padding-bottom:4cm;
+ border-radius:4px;
+
+}
+#r a{
+  background-color:black;
+  text-decoration:none;
+  padding:0.3cm 0.5cm 0.3cm 0.5cm;
+  color:white;
+  font-size:18px;
+  border-radius:4px;
 }
