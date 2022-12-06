@@ -88,8 +88,7 @@ justify-content: center;
 align-items: center;
 }
 #icp img{
-    height:4cm;
-    width:4cm;
+    width:8cm;
     
 }
 #wd h1{
@@ -128,6 +127,7 @@ color:#e3107d;
 .fmcont{
   display:flex;
   justify-content:space-around;
+  flex-wrap:wrap;
 }
 #q{
   background-image:linear-gradient(to right, #1ac4c4,#eb34d5);
